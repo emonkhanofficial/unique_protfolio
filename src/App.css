@@ -1,0 +1,37 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 80px; /* To avoid content being hidden under the fixed header */
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
